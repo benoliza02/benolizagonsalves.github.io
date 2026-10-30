@@ -103,12 +103,13 @@ footer{margin-top:56px;padding:24px 0 32px;border-top:1px solid var(--line);colo
 .feature footer b{display:block;color:var(--ink)}
 @media (max-width:720px){.herogrid{grid-template-columns:1fr;gap:28px;justify-items:start}.photowrap,.photowrap .photo{width:170px;height:170px}.hero{padding-top:36px}.feature p{font-size:1.1rem}}
 @media (prefers-reduced-motion:reduce){.stat,.card{transition:none}}
+html,body{overflow-x:clip}
 </style>
 </head>
 <body>
 <nav><div class="wrap">
 <a class="brand" href="#top"><span class="dot">BG</span><span>Benoliza Gonsalves</span></a>
-<ul><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#testimonials">Recommendations</a></li><li><a href="#contact">Contact</a></li></ul>
+<ul><li><a href="#experience">Experience</a></li><li><a href="#skills">Skills</a></li><li><a href="#education">Education</a></li><li><a href="#testimonials">Recommendations</a></li><li><a href="#contact">Contact</a></li></ul>
 </div></nav>
 
 <main id="top" class="wrap">
@@ -121,17 +122,19 @@ footer{margin-top:56px;padding:24px 0 32px;border-top:1px solid var(--line);colo
 <h1>Hello 👋 I’m Benoliza. I turn <span class="hl">complex</span> business needs into clear <span class="hl">requirements</span>, and clear <span class="hl">requirements</span> into proven results!</h1>
 <p class="sub">I’m a Business Analyst and Test Lead who works where business needs meet testing. I make sure every requirement has a test behind it, mostly in financial services and payments, where details matter and regulation is part of the job.</p>
 <p class="vlog">Outside work, I vlog about everyday life 🎥</p>
-<ul class="facts"><li>💼 13 years in testing and analysis</li><li>📍 Based in Finland</li><li>🗣️ Fluent English</li></ul>
+<ul class="facts"><li>💼 13 years in testing and analysis</li><li>👥 Line manager for 12</li><li>🤖 Python &amp; Robot Framework automation</li><li>📍 Based in Vantaa, Finland</li><li>🗣️ Fluent English</li></ul>
 <a class="btn p" href="#contact">Let’s talk</a><a class="btn s" href="#experience">See my work</a>
 </div>
 </div>
 <p class="label" style="margin-top:40px">Results I’ve delivered</p>
 <div class="stats">
+<div class="stat"><b>12</b><span>People line-managed across vendors and offshore</span></div>
+<div class="stat"><b>7</b><span>Banks on the platform I led testing for</span></div>
 <div class="stat"><b>250k</b><span>Accounts in a platform migration, process mapping led</span></div>
+<div class="stat"><b>2 → 1</b><span>Weeks for defect turnaround, using AI</span></div>
 <div class="stat"><b>−30%</b><span>Manual data-reconciliation time</span></div>
-<div class="stat"><b>2 → 1</b><span>Weeks for defect turnaround</span></div>
-<div class="stat"><b>12</b><span>People led across vendors and offshore</span></div>
-<div class="stat"><b>7</b><span>Banks on the platform I worked on</span></div>
+<div class="stat"><b>60%</b><span>Of POS regression testing automated</span></div>
+<div class="stat"><b>2–3 days</b><span>Testing saved in every 2-week sprint</span></div>
 </div>
 </div>
 
@@ -142,41 +145,66 @@ footer{margin-top:56px;padding:24px 0 32px;border-top:1px solid var(--line);colo
 <article class="card">
 <header><h3>FNZ Global</h3><span class="meta">Feb 2022 – Sep 2026</span></header>
 <span class="meta">Wealth management platform · Fintech · Helsinki</span>
-<p class="role">Business/IT Analyst &amp; Test Lead</p>
-<p class="desc">A platform used by 7 banks across the Nordics and EU.</p>
+<p class="desc" style="margin-top:8px">A regulated platform used by 7 banks across the Nordics and EU. I worked on both sides of delivery: business analysis and test leadership.</p>
+
+<p class="role">Business/IT Analyst</p>
 <ul>
 <li>Business analyst on large transformation projects for banks’ asset management divisions and standalone asset managers.</li>
-<li>Took part in stakeholder workshops and recommended best-fit solutions. Business analyst on an equity product for a major Finnish bank.</li>
+<li>Ran stakeholder workshops with product owners, developers and clients, and recommended best-fit solutions. Business analyst on an equity product (web and mobile) for a major Finnish bank.</li>
+<li>Analysed safekeeping, custody and corporate actions flows using SWIFT ISO 15022 (MT564/MT565) and ISO 20022.</li>
+<li>Worked in complex jurisdictions where it wasn’t always easy for clients to adapt to our Platform-as-a-Service (PaaS) tool.</li>
 <li>Negotiated with clients to use standard platform configuration first, customising only where justified. Pushed back on data warehouse requirements that did not use available configuration.</li>
-<li>Connected Power BI to Jira to give delivery and project managers daily MI reports on user story progress, from Definition of Ready to Definition of Done. Designed a Power BI dashboard for items in system testing that showed workflow bottlenecks.</li>
-<li>Worked with the data engineering team, who managed ingestion into Snowflake and the dbt transformation layers. Gave input on business requirements, learned their data models, and built Power BI reports on them.</li>
+<li>Used AI-assisted requirements analysis to strengthen gap analysis and ask stakeholders the right questions.</li>
 <li>Led process mapping for a migration of about 250,000 accounts. Used SQL to check that source data matches report numbers, including customer output, regulatory reports, and NAV and position data.</li>
 <li>Designed customised XML export formats that cut manual data-reconciliation time by 30%.</li>
-<li>Led a 12-person team across vendors and offshore. Restructured daily defect triage and used AI-assisted analysis to shorten test scenario scoping by 15%.</li>
+<li>Connected Power BI to Jira to give delivery and project managers daily MI reports on user story progress, from Definition of Ready to Definition of Done. Designed a Power BI dashboard for items in system testing that showed workflow bottlenecks.</li>
+<li>Worked with the data engineering team, who managed ingestion into Snowflake and the dbt transformation layers. Gave input on business requirements, learned their data models, and built Power BI reports on them.</li>
 </ul>
-<div class="chips"><b>250k accounts migrated</b><b>−30% reconciliation time</b><b>50% faster defect turnaround</b><b>−15% scoping time</b></div>
-<div class="tools"><span>Agile Scrum</span><span>Capital markets</span><span>Securities trading</span><span>Test management</span><span>Test execution</span><span>Defect management</span><span>Prompt engineering</span><span>AI-assisted scenario generation</span><span>AI-assisted defect triaging</span><span>Workshops</span><span>Backlog refinement</span><span>Epics and stories</span><span>Jira</span><span>Xray</span><span>Confluence</span><span>Power BI</span><span>SQL</span><span>MS SQL</span><span>Snowflake and dbt data models</span><span>Azure DevOps</span></div>
+
+<p class="role">Test Lead / Test Manager</p>
+<ul>
+<li>Line manager and lead for a 12-person test team of internal, external and offshore consultants: appraisals, leave approvals and daily work planning.</li>
+<li>Owned the test strategy, test plans and entry/exit criteria for every release; managed end-to-end testing, release management and release readiness.</li>
+<li>Created quality standards adopted by other teams and bank clients: test strategy templates, entry/exit criteria standards and a defect management process.</li>
+<li>Tracked defect and quality trends to find recurring problem areas, and drove preventive improvements to stop them repeating.</li>
+<li>Defined quality gates for onboarding new bank clients and platform migrations.</li>
+<li>Cut defect turnaround by 50% (two weeks to one) and test scenario scoping time by 15% by generating test scenarios from requirements with AI. Restructured daily defect triage with AI-assisted analysis.</li>
+<li>Directed the automation team scripting test cases in Virtuoso and Robot Framework.</li>
+<li>Defined scope for performance and security testing, and planned test data anonymization.</li>
+<li>Worked in a DevOps culture with Azure DevOps CI/CD and Git: peer code reviews, version control and release notes for production readiness.</li>
+</ul>
+<div class="chips"><b>Line manager for 12</b><b>250k accounts migrated</b><b>50% faster defect turnaround</b><b>−30% reconciliation time</b><b>−15% scoping time</b></div>
+<div class="tools"><span>Agile Scrum</span><span>Squads and tribes</span><span>Capital markets</span><span>Securities trading</span><span>Custody and corporate actions</span><span>SWIFT</span><span>Test strategy</span><span>Test management</span><span>Release management</span><span>Defect management</span><span>Quality gates</span><span>Prompt engineering</span><span>AI-assisted scenario generation</span><span>AI-assisted defect triaging</span><span>Workshops</span><span>Backlog refinement</span><span>Epics and stories</span><span>Jira</span><span>Xray</span><span>Confluence</span><span>Power BI</span><span>SQL</span><span>MS SQL</span><span>Snowflake and dbt data models</span><span>Azure DevOps</span><span>Git</span><span>Virtuoso</span><span>Robot Framework</span></div>
 </article>
 
 <article class="card">
 <header><h3>Nets</h3><span class="meta">Jun 2019 – Feb 2022</span></header>
 <span class="meta">Payments · POS · Helsinki</span>
-<p class="role">Analyst Tester &amp; Scrum Master</p>
+<p class="role">Analyst Tester, Automation Engineer &amp; Scrum Master</p>
 <ul>
-<li>Tested core POS payment transactions (tap/swipe/insert, PIN, receipts) and backend settlement/authorization workflows.</li>
-<li>Developed Robot Framework and Python automated regression suites, expanding E2E test coverage for edge/offline modes by 90%.</li>
-<li>Executed high-volume stress/load tests to confirm physical terminal and backend platform resilience.</li>
-<li>Served as Scrum Master for an 8-person team, leading Sprint Planning, Daily Stand-ups, and Retrospectives.</li>
+<li>Tested core POS payment transactions (tap, swipe, insert, PIN, receipts) and backend settlement and authorisation workflows.</li>
+<li>Built and maintained Robot Framework automation covering 60% of regression testing on 4 embedded Linux POS terminal models, saving about 2–3 days of testing in each 2-week sprint.</li>
+<li>Helped design the automation framework: Python test libraries and a keyword-driven, modular keyword structure built for reuse.</li>
+<li>Expanded end-to-end test coverage for edge and offline modes by 90%.</li>
+<li>Tested fault handling on the terminals: faulty cards, power cuts and lost connections, verifying how transactions behaved under each fault.</li>
+<li>Ran high-volume stress and load tests on POS terminals and mobile devices to confirm terminal and backend resilience.</li>
+<li>Ran automated regression suites in Jenkins CI/CD pipelines and reviewed test automation code.</li>
+<li>Scrum Master for an 8-person team, leading sprint planning, daily stand-ups and retrospectives.</li>
 </ul>
-<div class="tools"><span>Scrum ceremonies</span><span>Embedded testing</span><span>Visa and Mastercard certification</span><span>Robot Framework</span><span>Python</span><span>Jenkins</span></div>
+<div class="chips"><b>60% of regression automated</b><b>2–3 days saved per sprint</b><b>4 terminal models</b></div>
+<div class="tools"><span>Scrum ceremonies</span><span>Embedded Linux</span><span>Embedded testing</span><span>Fault and stress testing</span><span>Visa and Mastercard certification</span><span>Robot Framework</span><span>Python</span><span>Jenkins</span><span>CI/CD</span></div>
 </article>
 
 <article class="card">
 <header><h3>Samsung Electronics America</h3><span class="meta">Jun 2017 – Jun 2019</span></header>
 <span class="meta">Mobile · Telecom · New Jersey, USA</span>
 <p class="role">Quality Engineer</p>
-<ul><li>Led mobile app testing and coordination across major US wireless carriers, ensuring carrier compliance ahead of launch.</li></ul>
-<div class="tools"><span>Android app testing</span><span>Pre- and post-release testing</span><span>Mobile testing</span></div>
+<ul>
+<li>Led mobile app testing and coordination across major US wireless carriers, ensuring carrier compliance ahead of launch.</li>
+<li>Tested Android and iOS devices and carrier apps, including payment apps.</li>
+<li>Debugged device issues on Linux with adb and device logs, working with developers and carriers through to release.</li>
+</ul>
+<div class="tools"><span>Android and iOS testing</span><span>Pre- and post-release testing</span><span>Mobile testing</span><span>adb</span><span>Linux</span><span>Log debugging</span></div>
 </article>
 
 <article class="card">
@@ -188,10 +216,14 @@ footer{margin-top:56px;padding:24px 0 32px;border-top:1px solid var(--line);colo
 
 <article class="card">
 <header><h3>Larsen &amp; Toubro</h3><span class="meta">Sep 2010 – Dec 2014</span></header>
-<span class="meta">Telecom · Mobile devices · Mumbai, India</span>
+<span class="meta">Telecom · Mobile devices · Payments · Mumbai, India</span>
 <p class="role">Software Test Engineer</p>
-<ul><li>Functional, system, regression and non-functional testing across GSM, iDEN, LTE and CDMA Android devices.</li></ul>
-<div class="tools"><span>Mobile device system testing</span><span>E2E testing</span></div>
+<ul>
+<li>Functional, system, regression and non-functional testing across GSM, iDEN, LTE and CDMA Android devices for Motorola.</li>
+<li>Tested POS terminals for Nets Finland.</li>
+<li>Used Linux and adb for device-level testing; wrote test cases and managed defects in HP Quality Center and TestLink.</li>
+</ul>
+<div class="tools"><span>Mobile device system testing</span><span>POS terminal testing</span><span>E2E testing</span><span>HP Quality Center</span><span>TestLink</span></div>
 </article>
 </section>
 
@@ -212,21 +244,32 @@ footer{margin-top:56px;padding:24px 0 32px;border-top:1px solid var(--line);colo
 <p class="label">Skills &amp; tools</p>
 <h2>What I bring and use</h2>
 <div class="grid">
-<div class="card"><h3>🧩 Business analysis</h3><ul><li>Requirements and gap analysis</li><li>Workshops and stakeholder negotiation</li><li>Epics, user stories and acceptance criteria</li><li>Backlog refinement</li><li>Process modelling (UML, BPM)</li></ul></div>
-<div class="card"><h3>🧪 Testing</h3><ul><li>Test strategy and planning</li><li>Test reporting</li><li>Defect management and triaging</li><li>Test execution</li><li>System, integration and E2E testing</li><li>Mobile testing</li><li>Point of Sale terminal testing</li><li>Web testing</li><li>API testing</li></ul></div>
-<div class="card"><h3>🤖 AI</h3><ul><li>Prompt engineering</li><li>AI-assisted testing</li></ul></div>
-<div class="card"><h3>🏦 Domain</h3><ul><li>Wealth and asset management</li><li>Order management</li><li>Safekeeping and custody</li><li>Corporate actions</li><li>SWIFT messages</li><li>Customer output reports</li><li>Regulatory reporting</li><li>Capital markets</li><li>Data migration</li></ul></div>
+<div class="card"><h3>🧩 Business analysis</h3><ul><li>Requirements and gap analysis</li><li>Workshops and stakeholder negotiation</li><li>Epics, user stories and acceptance criteria</li><li>Backlog refinement</li><li>Process mapping and modelling (UML, BPM)</li><li>Requirements traceability</li></ul></div>
+<div class="card"><h3>🧪 Testing and quality</h3><ul><li>Test strategy and planning</li><li>Entry/exit criteria and quality gates</li><li>Risk-based testing</li><li>Release management and readiness</li><li>Defect management and triaging</li><li>System, integration, regression and E2E testing</li><li>Performance and security test scoping</li><li>Mobile, POS terminal, web and API testing</li></ul></div>
+<div class="card"><h3>⚙️ Test automation</h3><ul><li>Python and Robot Framework</li><li>Keyword-driven, modular framework design</li><li>Virtuoso</li><li>Jenkins and Azure DevOps CI/CD</li><li>Postman (API) and Playwright (basics)</li><li>Test automation code reviews</li></ul></div>
+<div class="card"><h3>📟 Embedded and devices</h3><ul><li>Embedded Linux POS terminals</li><li>Android and iOS devices</li><li>Fault, stress and load testing</li><li>Linux, adb and log debugging</li></ul></div>
+<div class="card"><h3>👥 Leadership</h3><ul><li>Line management (12 people)</li><li>Onsite, vendor and offshore teams</li><li>Quality standards adopted across teams</li><li>Reporting results and risks to leadership</li><li>Scrum Master</li></ul></div>
+<div class="card"><h3>🤖 AI</h3><ul><li>Prompt engineering</li><li>AI-assisted test scenario generation</li><li>AI-assisted requirements and gap analysis</li><li>AI-assisted defect triaging</li></ul></div>
+<div class="card"><h3>🏦 Domain</h3><ul><li>Wealth and asset management</li><li>Order management</li><li>Safekeeping and custody</li><li>Corporate actions</li><li>SWIFT messages (ISO 15022, ISO 20022)</li><li>Customer output reports</li><li>Regulatory reporting</li><li>Capital markets</li><li>Data migration</li><li>Payments and POS</li></ul></div>
+<div class="card"><h3>🛠️ Tools</h3><ul><li>Jira, Confluence and Xray</li><li>SQL, MS SQL, Postman and Git</li><li>Power BI (Jira reporting and dashboards) and Visio</li><li>Snowflake and dbt data models (as report builder with the data engineering team)</li><li>HP Quality Center and TestLink</li></ul></div>
 <div class="card"><h3>🤝 Ways of working</h3><ul><li>Agile squad and tribe teams</li><li>Scrum, Kanban and SAFe</li><li>Close work with product owners, developers and business stakeholders</li></ul></div>
-<div class="card"><h3>🛠️ Tools</h3><ul><li>Jira, Confluence and Xray</li><li>SQL, Postman and Git</li><li>Power BI (Jira reporting and dashboards) and Visio</li><li>Snowflake and dbt data models (as report builder with the data engineering team)</li><li>AI-assisted requirements validation and test design</li></ul></div>
 <div class="card"><h3>🌍 Languages</h3><ul><li>English (fluent)</li><li>Finnish (beginner, currently learning) 🚧</li></ul></div>
-<div class="card"><h3>🎓 Certifications</h3><ul><li>ISTQB Foundation Level</li><li>ISTQB Testing with Generative AI (in progress) 🚧</li><li>Oracle 10g DBA</li><li>Guidewire Training free course (enrolled) 🚧</li></ul></div>
+</div>
+</section>
+
+<section id="education">
+<p class="label">Education &amp; certifications</p>
+<h2>What I’ve studied</h2>
+<div class="grid">
+<div class="card"><h3>🎓 Education</h3><ul><li><b>MS, Project Management</b><br>Touro University, New York · 2015 – 2017</li><li><b>MS, Information Systems</b><br>Mumbai University · 2011 – 2013</li><li><b>BS, Information Technology</b><br>Mumbai University · 2010</li></ul></div>
+<div class="card"><h3>📜 Certifications</h3><ul><li>ISTQB Certified Tester Foundation Level (CTFL)</li><li>ISTQB Certified Tester – Testing with Generative AI (CT-GenAI), in progress 🚧</li><li>Oracle 10g DBA</li><li>Guidewire Training free course (enrolled) 🚧</li></ul></div>
 </div>
 </section>
 
 <section id="contact">
 <p class="label">Contact</p>
 <h2>Let’s work together</h2>
-<p>I am open to business analyst, consultant, test management and testing roles in Finland (hybrid, onsite or remote), as well as remote roles across EMEA. Email me or message me on LinkedIn.</p><p>I am currently on garden leave because of restructuring at my current organisation, and I am ready to contribute at a new company immediately.</p>
+<p>I am open to business analyst, product owner, test management, test automation and consultant roles in Finland (hybrid, onsite or remote), as well as remote roles across EMEA. Email me or message me on LinkedIn.</p><p>I am currently on garden leave because of restructuring at my current organisation, and I am ready to contribute at a new company immediately.</p>
 <a class="btn p" href="mailto:benoliza.gonsalves@gmail.com">✉️ Email me</a><a class="btn s" href="https://linkedin.com/in/benoliza-gonsalves-713425a0">LinkedIn</a>
 <div class="info">
 <div><small>Location</small>Finland · Remote across EMEA</div>
